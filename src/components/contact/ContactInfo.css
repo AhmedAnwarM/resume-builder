@@ -1,0 +1,25 @@
+.cvContactInfo {
+    width: 96vw;
+    padding: 5px 2vw;
+    background-color: #494f5c;
+}
+
+.cvContactInfoList {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cvContactInfoListItem {
+    font-size: medium;
+}
+
+.cvContactInfoListItem a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.cvContactInfoListItem a:hover {
+    color: whitesmoke;
+}

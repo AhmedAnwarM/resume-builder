@@ -1,0 +1,23 @@
+.cvIntro {
+    text-align: left;
+    width: 96vw;
+    padding: 5px 2vw;
+    background-color: #282c34;
+}
+
+.cvName {
+    font-weight: bold;
+    font-size: calc(25px + 1vmin);
+}
+
+.cvCurrentPosition {
+    font-size: calc(15px + 1vmin);
+    font-style: italic;
+    color: #56595a;
+}
+
+.cvSummary {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: calc(10px + 1vmin);
+    color: #848889;
+}
