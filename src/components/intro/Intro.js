@@ -1,17 +1,17 @@
 import './Intro.css';
 import 'font-awesome/css/font-awesome.min.css';
+import {CV_DATA} from "../../data/cv-data";
 
 function Intro() {
-    let name = "Ahmed Anwar";
-    let position = "Software Engineer";
-    let summary = "Software Engineer with experience developing large scale enterprise applications including designing, developing, implementing and maintaining software and taking projects from development phase to go-live phase";
-
     return (
         <div className="cvIntro row">
-            <span className="cvName">{name}</span>&nbsp;
-            <span className="cvCurrentPosition">({position})</span>
+            <span className="cvName">{CV_DATA.name}</span>&nbsp;
+            <span className="cvCurrentPosition">{CV_DATA.position}</span>
             <br/>
-            <p className="cvSummary">{summary}</p>
+            <p className="cvSummary">
+                <span>{CV_DATA.summary[0].title}</span>&nbsp;
+                <span>{CV_DATA.summary[0].content}</span>
+            </p>
         </div>
     );
 }
