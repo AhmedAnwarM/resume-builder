@@ -15,9 +15,3 @@
     font-style: italic;
     color: #56595a;
 }
-
-.cvSummary {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-    font-size: calc(10px + 1vmin);
-    color: #848889;
-}

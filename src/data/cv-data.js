@@ -2,12 +2,38 @@ export const CV_DATA = {
     "name": "Ahmed Anwar",
     "position": "Software Engineer",
     "city": "Cairo, Egypt",
-    "email": "mailto:ahmedanwarm@outlook.com",
-    "mobile": "tel:+201009149603",
-    "website": "https://www.aanwar.cyou",
-    "linkedinUrl": "https://www.linkedin.com/in/ahmedanwarm",
-    "githubUrl": "https://www.github.com/ahmedanwarm",
-    "stackoverflowUrl": "https://stackoverflow.com/users/4671894/ahmed-anwar",
+    "contactInfo": [
+        {
+            "title": "Email",
+            "link": "mailto:ahmedanwarm@outlook.com",
+            "icon": "fa fa-envelope"
+        },
+        {
+            "title": "Mobile",
+            "link": "tel:+201009149603",
+            "icon": "fa fa-phone"
+        },
+        {
+            "title": "Website",
+            "link": "https://www.aanwar.cyou",
+            "icon": "fa fa-globe"
+        },
+        {
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/ahmedanwarm",
+            "icon": "fa fa-linkedin-square"
+        },
+        {
+            "title": "GitHub",
+            "link": "https://www.github.com/ahmedanwarm",
+            "icon": "fa fa-github"
+        },
+        {
+            "title": "StackOverflow",
+            "link": "https://stackoverflow.com/users/4671894/ahmed-anwar",
+            "icon": "fa fa-stack-overflow"
+        },
+    ],
     "summary": [
         {
             "title": "Software Engineer",

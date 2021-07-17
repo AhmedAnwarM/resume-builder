@@ -1,0 +1,12 @@
+.cvContactInfoListItem {
+    font-size: medium;
+}
+
+.cvContactInfoListItem a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.cvContactInfoListItem a:hover {
+    color: whitesmoke;
+}
