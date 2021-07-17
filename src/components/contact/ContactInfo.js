@@ -9,8 +9,8 @@ function ContactInfo() {
         <div className="cvContactInfo row">
             <ul className="cvContactInfoList">
                 {
-                    CV_DATA.contactInfo.map((item) => {
-                        return <ContactItem title={item.title} link={item.link} icon={item.icon}/>
+                    CV_DATA.contactInfo.map((item, i) => {
+                        return <ContactItem key={i} title={item.title} link={item.link} icon={item.icon}/>
                     })
                 }
             </ul>

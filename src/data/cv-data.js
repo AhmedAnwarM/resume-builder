@@ -1,6 +1,6 @@
 export const CV_DATA = {
     "name": "Ahmed Anwar",
-    "position": "Software Engineer",
+    "currentPosition": "",
     "city": "Cairo, Egypt",
     "contactInfo": [
         {
@@ -37,15 +37,7 @@ export const CV_DATA = {
     "summary": [
         {
             "title": "Software Engineer",
-            "content": "with experience developing large scale enterprise applications including designing, developing, implementing and maintaining software and taking projects from development phase to go-live phase."
-        },
-        {
-            "title": "Over 5 years of development experience",
-            "content": "and 3 years of leading and supporting small development teams, supporting project managers in communication with clients and training new junior software engineers."
-        },
-        {
-            "title": "Strong DevOps culture:",
-            "content": "experienced first-hand the value from having automated testing, deployment and Cl/CD pipelines"
+            "content": "with over 5 years of experience developing, designing and testing large scale enterprise applications, around 3 years of leading small teams and a strong DevOps culture."
         }
     ],
     "education": [

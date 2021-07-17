@@ -16,7 +16,7 @@ class ContactItem extends Component {
     render() {
         return (
             <li className="cvContactInfoListItem">
-                <a target="_blank" href={this.state.link}>
+                <a rel="noreferrer" target="_blank" href={this.state.link}>
                     <i className={this.state.icon}/> {this.state.title}
                 </a>
             </li>
