@@ -1,28 +1,14 @@
 import './App.css';
 import 'font-awesome/css/font-awesome.min.css';
-import ContactInfo from "./components/contact/ContactInfo";
-import Intro from "./components/intro/Intro";
-import Skills from "./components/skills/Skills";
-import {CV_DATA} from "./data/cv-data";
-import Education from "./components/education/Education";
-import WorkExperience from "./components/experience/Experience";
+import DownloadPDF from "./components/download-btn/DownloadPDF";
+import Resume from "./components/Resume";
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <Intro/>
-                <ContactInfo/>
-                <div className="splitScreen">
-                    <div className="column">
-                        <WorkExperience/>
-                    </div>
-                    <div className="column">
-                        <Skills title="Personal Skills" skills={CV_DATA.personalSkills}/>
-                        <Skills title="Technical Skills" skills={CV_DATA.technicalSkills}/>
-                        <Education/>
-                    </div>
-                </div>
+                <DownloadPDF/>
+                <Resume/>
             </header>
         </div>
     );
