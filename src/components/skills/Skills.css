@@ -1,5 +1,5 @@
 .skillsTitle {
-    color: gray;
+    color: #848889;
     line-height: 0;
     text-align: left;
 }
@@ -7,18 +7,19 @@
 .skillsList {
     margin: 0;
     list-style-type: none;
+    padding-left: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    font-size: small;
+    font-size: calc(10px + 1vmin);
 }
 
 .skillItem {
     background-color: navajowhite;
     color: gray;
     border-radius: 20px;
-    padding: 3px;
+    padding: 2px 12px;
     margin: 1px;
 }
 

@@ -1,5 +1,5 @@
 .cvContactInfoListItem {
-    font-size: medium;
+    font-size: calc(12px + 1vmin);
 }
 
 .cvContactInfoListItem a {
