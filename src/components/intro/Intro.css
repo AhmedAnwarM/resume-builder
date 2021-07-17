@@ -1,13 +1,13 @@
 .cvIntro {
     text-align: left;
-    width: 96vw;
     padding: 5px 2vw;
     background-color: #282c34;
 }
 
 .cvName {
-    font-weight: bold;
     font-size: calc(25px + 1vmin);
+    font-weight: bold;
+    color: #FFFFFF;
 }
 
 .cvCurrentPosition {

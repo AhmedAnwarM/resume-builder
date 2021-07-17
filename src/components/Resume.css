@@ -1,15 +1,13 @@
 .resume {
-    /*max-width: 792px;*/
 }
 
 .splitScreen {
-    width: 100vw;
     display: flex;
     flex-direction: row;
 }
 
 .column {
-    width: 48vw;
+    width: 50%;
     padding: 2px 1vw;
 }
 

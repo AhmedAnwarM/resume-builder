@@ -11,6 +11,7 @@ class DownloadPDF extends Component {
     }
 
     downloadPdf() {
+        // TODO: Check if there is a way to print with better quality
         let opt = {
             filename: 'generated-resume.pdf',
             jsPDF: {format: 'A4'}
