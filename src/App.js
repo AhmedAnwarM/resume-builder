@@ -5,6 +5,7 @@ import Intro from "./components/intro/Intro";
 import Skills from "./components/skills/Skills";
 import {CV_DATA} from "./data/cv-data";
 import Education from "./components/education/Education";
+import WorkExperience from "./components/experience/Experience";
 
 function App() {
     return (
@@ -14,7 +15,7 @@ function App() {
                 <ContactInfo/>
                 <div className="splitScreen">
                     <div className="column">
-                        {/* TODO: Add work experience here */}
+                        <WorkExperience/>
                     </div>
                     <div className="column">
                         <Skills title="Personal Skills" skills={CV_DATA.personalSkills}/>

@@ -7,7 +7,7 @@ function Education() {
     return (
         <div>
             <p className="sectionTitle">Education</p>
-            <ul className="educationInfoList">
+            <ul className="educationInfoList sectionContent">
                 {CV_DATA.education.map((item, i) => {
                     return <EducationItem key={i} title={item.title} startDate={item.startDate}
                                           endDate={item.endDate}/>
