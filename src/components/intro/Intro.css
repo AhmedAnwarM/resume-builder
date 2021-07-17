@@ -11,7 +11,7 @@
 }
 
 .cvCurrentPosition {
-    font-size: calc(15px + 1vmin);
+    font-size: calc(12px + 1vmin);
     font-style: italic;
     color: #56595a;
 }
