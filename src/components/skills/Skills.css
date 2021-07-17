@@ -21,3 +21,15 @@
     padding: 3px;
     margin: 1px;
 }
+
+.skillBeginner {
+    background-color: navajowhite;
+}
+
+.skillIntermediate {
+    background-color: #ffc06e;
+}
+
+.skillAdvanced {
+    background-color: #ffae31;
+}

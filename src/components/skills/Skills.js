@@ -18,7 +18,10 @@ class Skills extends Component {
                 <ul className="skillsList">
                     {
                         this.state.skills.map((item, i) => {
-                            return <li className="skillItem" key={i}>{item.skill}</li>
+                            if (item.level !== undefined)
+                                var skillClassName = item.level === 1 ? "skillBeginner" : item.level === 2 ? "skillIntermediate" : "skillAdvanced";
+                            return <li className={"skillItem " + skillClassName}
+                                       key={i}>{item.skill}</li>
                         })
                     }
                 </ul>
