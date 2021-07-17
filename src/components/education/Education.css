@@ -1,12 +1,8 @@
-.educationInfoTitle {
-    color: #848889;
-    line-height: 0;
-    text-align: left;
-}
 .educationInfoList {
+    /*list-style-type: none;*/
     color: #494f5c;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 30px;
     font-size: calc(12px + 1vmin);
 }
 

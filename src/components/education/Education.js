@@ -6,11 +6,13 @@ import EducationItem from "./education-item/EducationItem";
 function Education() {
     return (
         <div>
-            <p className="educationInfoTitle">Education</p>
-            {CV_DATA.education.map((item, i) => {
-                return <EducationItem key={i} title={item.title} startDate={item.startDate}
-                                      endDate={item.endDate}/>
-            })}
+            <p className="sectionTitle">Education</p>
+            <ul className="educationInfoList">
+                {CV_DATA.education.map((item, i) => {
+                    return <EducationItem key={i} title={item.title} startDate={item.startDate}
+                                          endDate={item.endDate}/>
+                })}
+            </ul>
         </div>
     );
 }

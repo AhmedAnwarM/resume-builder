@@ -1,18 +1,5 @@
-.skillsTitle {
-    color: #848889;
-    line-height: 0;
-    text-align: left;
-}
-
 .skillsList {
-    margin: 0;
     list-style-type: none;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-size: calc(10px + 1vmin);
 }
 
 .skillItem {

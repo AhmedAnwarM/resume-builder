@@ -14,12 +14,14 @@ class Skills extends Component {
     render() {
         return (
             <div>
-                <p className="skillsTitle">{this.state.title}</p>
-                <ul className="skillsList">
+                <p className="sectionTitle">{this.state.title}</p>
+                <ul className="skillsList sectionContent">
                     {
                         this.state.skills.map((item, i) => {
-                            if (item.level !== undefined)
-                                var skillClassName = item.level === 1 ? "skillBeginner" : item.level === 2 ? "skillIntermediate" : "skillAdvanced";
+                            let skillClassName = '';
+                            if (item.level !== undefined) {
+                                skillClassName = item.level === 1 ? "skillBeginner" : item.level === 2 ? "skillIntermediate" : "skillAdvanced";
+                            }
                             return <li className={"skillItem " + skillClassName}
                                        key={i}>{item.skill}</li>
                         })

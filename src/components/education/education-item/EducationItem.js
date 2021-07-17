@@ -13,7 +13,7 @@ class EducationItem extends Component {
     }
 
     render() {
-        return <p className="educationInfoList">
+        return <li>
             <span className="educationItemTitle">{this.state.title}</span>&nbsp;
             (<span>{this.state.startDate}</span>
             {(() => {
@@ -22,7 +22,7 @@ class EducationItem extends Component {
                 }
             })()}
             )
-        </p>
+        </li>
     }
 }
 
