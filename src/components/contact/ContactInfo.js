@@ -8,6 +8,16 @@ function ContactInfo() {
         <div className="cvContactInfo row">
             <ul className="cvContactInfoList">
                 <li className="cvContactInfoListItem">
+                    <a target="_blank" href={CV_DATA.email}>
+                        <i className="fa fa-envelope"/> Email
+                    </a>
+                </li>
+                <li className="cvContactInfoListItem">
+                    <a target="_blank" href={CV_DATA.mobile}>
+                        <i className="fa fa-phone"/> Mobile
+                    </a>
+                </li>
+                <li className="cvContactInfoListItem">
                     <a target="_blank" href={CV_DATA.website}>
                         <i className="fa fa-globe"/> Website
                     </a>

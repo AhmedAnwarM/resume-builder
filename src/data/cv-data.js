@@ -1,6 +1,9 @@
 export const CV_DATA = {
     "name": "Ahmed Anwar",
     "position": "Software Engineer",
+    "city": "Cairo, Egypt",
+    "email": "mailto:ahmedanwarm@outlook.com",
+    "mobile": "tel:+201009149603",
     "website": "https://www.aanwar.cyou",
     "linkedinUrl": "https://www.linkedin.com/in/ahmedanwarm",
     "githubUrl": "https://www.github.com/ahmedanwarm",
