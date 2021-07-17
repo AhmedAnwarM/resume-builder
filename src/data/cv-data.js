@@ -52,13 +52,27 @@ export const CV_DATA = {
         }
     ],
     "personalSkills": [
-        "Working in agile environments",
-        "Teamwork & Team Leadership",
-        "Communication",
-        "Prioritizing and Time Management",
-        "Mentorship & Training",
-        "Presentation and customer facing",
-        "Strong self learning & improvement culture"
+        {
+            "skill": "Working in agile environments"
+        },
+        {
+            "skill": "Presentation and customer facing"
+        },
+        {
+            "skill": "Teamwork & Team Leadership"
+        },
+        {
+            "skill": "Communication"
+        },
+        {
+            "skill": "Mentorship & Training"
+        },
+        {
+            "skill": "Prioritizing and Time Management"
+        },
+        {
+            "skill": "Self Learning & Improvement"
+        }
     ],
     "workExperience": [
         {
@@ -125,7 +139,7 @@ export const CV_DATA = {
     ],
     "technicalSkills": [
         {
-            "skill": "OOP & Data Structures",
+            "skill": "OOP & DS",
             "level": 3
         },
         {
@@ -137,7 +151,11 @@ export const CV_DATA = {
             "level": 3
         },
         {
-            "skill": "JavaEE/JakartaEE/Microprofile",
+            "skill": "JavaEE",
+            "level": 3
+        },
+        {
+            "skill": "Microprofile",
             "level": 3
         },
         {
@@ -145,11 +163,11 @@ export const CV_DATA = {
             "level": 3
         },
         {
-            "skill": "REST APIs",
+            "skill": "REST",
             "level": 3
         },
         {
-            "skill": "SOAP WebServices",
+            "skill": "SOAP",
             "level": 2
         },
         {
@@ -157,7 +175,7 @@ export const CV_DATA = {
             "level": 3
         },
         {
-            "skill": "SQL Databases (Oracle, MSSQL, MySQL, DB2)",
+            "skill": "SQL Databases",
             "level": 2
         },
         {
@@ -165,7 +183,7 @@ export const CV_DATA = {
             "level": 1
         },
         {
-            "skill": "DevOps (Jenkins, SonarQube, GitLab CI, GitHub Actions",
+            "skill": "DevOps Tools",
             "level": 2
         },
         {
@@ -185,7 +203,7 @@ export const CV_DATA = {
             "level": 2
         },
         {
-            "skill": "HTML & CSS",
+            "skill": "HTML/CSS",
             "level": 2
         },
         {
@@ -209,11 +227,11 @@ export const CV_DATA = {
             "level": 1
         },
         {
-            "skill": "WebSphere Application Server",
+            "skill": "WebSphere",
             "level": 2
         },
         {
-            "skill": "IBM Case Manager & FileNet",
+            "skill": "IBM CM & FileNet",
             "level": 3
         }
     ],

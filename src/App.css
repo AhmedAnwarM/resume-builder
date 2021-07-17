@@ -30,3 +30,14 @@
         transform: rotate(360deg);
     }
 }
+
+.splitScreen {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    width: 48vw;
+    padding: 2px 1vw;
+}
