@@ -3,22 +3,21 @@
 }
 
 .skillItem {
-    font-size: 15px;
-    background-color: navajowhite;
-    color: gray;
+    background-color: #494f5c;
+    color: whitesmoke;
     border-radius: 20px;
     padding: 2px 12px;
     margin: 1px;
 }
 
 .skillBeginner {
-    background-color: navajowhite;
+    background-color: #494f5c;
 }
 
 .skillIntermediate {
-    background-color: #ffc06e;
+    background-color: #494f5c;
 }
 
 .skillAdvanced {
-    background-color: #ffae31;
+    background-color: #494f5c;
 }

@@ -222,11 +222,19 @@ export const CV_DATA = {
             "level": 1
         },
         {
-            "skill": "WebSphere",
+            "skill": "IBM WebSphere",
             "level": 2
         },
         {
-            "skill": "IBM CM & FileNet",
+            "skill": "IBM Case Manager",
+            "level": 3
+        },
+        {
+            "skill": "IBM FileNet",
+            "level": 3
+        },
+        {
+            "skill": "IBM Integration Bus",
             "level": 3
         }
     ],
