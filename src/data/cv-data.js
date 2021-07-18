@@ -53,22 +53,28 @@ export const CV_DATA = {
     ],
     "personalSkills": [
         {
-            "skill": "Working in agile environments"
+            "skill": "Agile"
         },
         {
-            "skill": "Presentation and customer facing"
+            "skill": "Presentation Skills"
         },
         {
-            "skill": "Teamwork & Team Leadership"
+            "skill": "Client Communication"
         },
         {
-            "skill": "Communication"
+            "skill": "Teamwork"
         },
         {
-            "skill": "Mentorship & Training"
+            "skill": "Team Leadership"
         },
         {
-            "skill": "Prioritizing and Time Management"
+            "skill": "Mentorship"
+        },
+        {
+            "skill": "Training"
+        },
+        {
+            "skill": "Time Management"
         },
         {
             "skill": "Self Learning & Improvement"
