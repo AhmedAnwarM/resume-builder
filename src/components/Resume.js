@@ -16,8 +16,8 @@ function Resume() {
                     <WorkExperience/>
                 </div>
                 <div className="column">
-                    <Skills title="Personal Skills" skills={CV_DATA.personalSkills}/>
                     <Skills title="Technical Skills" skills={CV_DATA.technicalSkills}/>
+                    <Skills title="Personal Skills" skills={CV_DATA.personalSkills}/>
                     <Education/>
                 </div>
             </div>

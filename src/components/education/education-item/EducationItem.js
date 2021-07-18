@@ -13,15 +13,18 @@ class EducationItem extends Component {
     }
 
     render() {
-        return <li>
-            <span className="educationItemTitle">{this.state.title}</span>&nbsp;
-            (<span>{this.state.startDate}</span>
-            {(() => {
-                if (this.state.endDate) {
-                    return <span>{" - " + this.state.endDate}</span>
-                }
-            })()}
-            )
+        return <li className="sectionSubtitle">
+            <span>{this.state.title}</span>&nbsp;
+            <span className="sectionSubtitleExtraInfo">
+            (
+                <span>{this.state.startDate}</span>
+                {(() => {
+                    if (this.state.endDate) {
+                        return <span>{" - " + this.state.endDate}</span>
+                    }
+                })()}
+                )
+            </span>
         </li>
     }
 }

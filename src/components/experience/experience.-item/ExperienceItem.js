@@ -1,3 +1,4 @@
+import './ExperienceItem.css'
 import {Component} from "react";
 
 class ExperienceItem extends Component {
@@ -15,8 +16,23 @@ class ExperienceItem extends Component {
     }
 
     render() {
-        return <li>
-            {this.state.title} - {this.state.company}
+        return <li className="sectionSubtitle">
+            {this.state.title} at {this.state.company} - {this.state.location}
+            &nbsp;
+            <span
+                className="sectionSubtitleExtraInfo">({this.state.startDate} - {this.state.endDate})</span>
+            <br/>
+            <span className="jobDescription">{this.state.description}</span>
+            <br/>
+            <ul className="jobResponsibilities">
+                {this.state.responsibilities ? (
+                    this.state.responsibilities.map((item, i) => {
+                        return <li key={i}>{this.state.responsibilities[i]}</li>
+                    })
+                ) : (
+                    <div/>
+                )}
+            </ul>
         </li>
     }
 }

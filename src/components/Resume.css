@@ -12,8 +12,22 @@
 }
 
 .sectionTitle {
+    font-size: 20px;
     color: #848889;
     line-height: 1.1;
+    text-align: left;
+}
+
+.sectionSubtitle {
+    font-size: 15px;
+    color: #848889;
+    text-align: left;
+}
+
+.sectionSubtitleExtraInfo {
+    font-size: 13px;
+    font-style: italic;
+    color: #848889;
     text-align: left;
 }
 

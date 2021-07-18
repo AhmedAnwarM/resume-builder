@@ -81,12 +81,7 @@ export const CV_DATA = {
             "location": "Cairo, Egypt",
             "startDate": "Jan 2021",
             "endDate": "Current",
-            "description": "Besides my responsibilities of my previous title, in this position I started leading teams of around 4-5 developers, participating with architects in design and sizing activities for new projects or CRs",
-            "responsibilities": [
-                "Providing technical support to team members",
-                "Interviewing, training and mentoring new talent",
-                "Communication with clients and other software companies"
-            ]
+            "description": "Besides my responsibilities of my previous title as a Software Engineer at Sumerge, in this position I started leading teams of around 4-5 developers, participating with architects in design and sizing activities for new projects or CRs"
         },
         {
             "title": "Software Engineer",
@@ -94,7 +89,7 @@ export const CV_DATA = {
             "location": "Cairo, Egypt",
             "startDate": "March 2018",
             "endDate": "December 2020",
-            "description": "Besides my responsibilities of my previous title, in this position I got more leadership and team support responsibilities like:",
+            "description": "Besides my responsibilities of my previous title as an Associate Software Engineer at Sumerge, in this position I got more leadership and team support responsibilities like:",
             "responsibilities": [
                 "Providing technical support to team members",
                 "Interviewing, training and mentoring new talent",

@@ -12,7 +12,7 @@ class DownloadPDF extends Component {
 
     render() {
         return (
-            // TODO: Styling :(
+            // TODO: Button styling :(
             <Dropdown className="downloadPdf" as={ButtonGroup}>
                 <Button variant="info">Download PDF</Button>
                 <Dropdown.Toggle split variant="info"/>
