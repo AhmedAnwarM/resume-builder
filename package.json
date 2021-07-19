@@ -1,6 +1,6 @@
 {
   "name": "resume-builder",
-  "homepage": "https://www.aanwar.cyou/resume-builder/",
+  "homepage": "https://resume.aanwar.cyou/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
