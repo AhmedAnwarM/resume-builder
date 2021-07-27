@@ -1,6 +1,6 @@
-import {Component} from "react";
 import html2pdf from "html2pdf.js";
-import {Button, ButtonGroup, Dropdown} from "react-bootstrap";
+import {Component} from "react";
+import {Button} from "react-bootstrap";
 
 class DownloadPDF extends Component {
     constructor(props) {
@@ -11,23 +11,11 @@ class DownloadPDF extends Component {
     }
 
     render() {
+        // TODO: Button styling :(
         return (
-            // TODO: Button styling :(
-            <Dropdown className="downloadPdf" as={ButtonGroup}>
-                <Button variant="info">Download PDF</Button>
-                <Dropdown.Toggle split variant="info"/>
-                <Dropdown.Menu>
-                    <Dropdown.Item onClick={() => {
-                        this.downloadPdf(4)
-                    }}>High Quality</Dropdown.Item>
-                    <Dropdown.Item onClick={() => {
-                        this.downloadPdf(2)
-                    }}>Medium Quality</Dropdown.Item>
-                    <Dropdown.Item onClick={() => {
-                        this.downloadPdf(1)
-                    }}>Low Quality</Dropdown.Item>
-                </Dropdown.Menu>
-            </Dropdown>
+            <Button variant="info" onClick={() => {
+                this.downloadPdf(4)
+            }}>Download PDF</Button>
         );
     }
 
